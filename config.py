@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "1BVtsOIsBu2T27LhP6YbPiie2hSb7WPFHXjIDXYrFdDT-33w748_qVn_UWdf3K2PUHhr9LBXrSq_ilZFKzokRCk01YS--ZlDavZrANVqJvuygqz7vgcVQRPPbYt6BxOUe-YV-TdUunZOAdlovtnNf0TOg9n954QR-GvOoBr5mQFUu7MGu4BbQGP7l0VFmIp5b2D4SKGxVvyO6s04gHO2Oq4aiXlq2Y3x6mvzZX35inM1fmvvW7AKs2z08Xfl3MLFnkklu61aNDQHkBLtMMGm41Kpy0RrZ0NnAsxTX4TKJNTF-J7u9avbXnN2GKus7g7bgJiP0HUNupatyQY79RYDf4IA_f7hVTyc="
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -112,4 +112,5 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
